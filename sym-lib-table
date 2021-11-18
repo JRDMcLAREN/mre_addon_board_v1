@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name wideband_controller_mre-rescue)(type Legacy)(uri ${KIPRJMOD}/wideband_controller_mre-rescue.lib)(options "")(descr ""))
+  (lib (name can_conn_mre_wbo2-rescue)(type Legacy)(uri ${KIPRJMOD}/can_conn_mre_wbo2-rescue.lib)(options "")(descr ""))
+)
