@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "Wideband Controler MRE addon board"
-Date "2021-11-18"
-Rev "V1.0"
+Title "MRE addon board - WBO2 Controller & SD Card"
+Date "2021-11-19"
+Rev "V1.1"
 Comp "by JRD McLAREN"
 Comment1 ""
 Comment2 ""

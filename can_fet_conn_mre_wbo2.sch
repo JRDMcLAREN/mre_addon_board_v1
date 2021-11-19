@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "MRE addon board - WBO2 & SD"
+Date "2021-11-19"
+Rev "V1.1"
+Comp "by JRD McLAREN"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -72,9 +72,9 @@ Wire Wire Line
 	4550 2375 4200 2375
 Text Label 8675 2125 0    50   ~ 0
 LSU_Heater-
-Text Notes 1925 4350 2    50   ~ 0
+Text Notes 2175 4425 2    50   ~ 0
 white
-Text Notes 4650 4325 2    50   ~ 0
+Text Notes 4900 4400 2    50   ~ 0
 grey
 Text Label 6375 2475 2    50   ~ 0
 CAN_H
@@ -84,15 +84,15 @@ Wire Wire Line
 	6375 2575 6075 2575
 Wire Wire Line
 	6375 2475 6075 2475
-Text Notes 4500 4425 0    50   ~ 0
+Text Notes 4750 4500 0    50   ~ 0
 black
-Text Notes 1925 4450 2    50   ~ 0
+Text Notes 2175 4525 2    50   ~ 0
 green
-Text Notes 4500 4225 0    50   ~ 0
+Text Notes 4750 4300 0    50   ~ 0
 yellow
 Wire Wire Line
-	3475 4425 4025 4425
-Text Label 4025 4425 2    50   ~ 0
+	3725 4500 4275 4500
+Text Label 4275 4500 2    50   ~ 0
 LSU_Un
 $Comp
 L Device:C C23
@@ -153,30 +153,30 @@ Wire Wire Line
 $Comp
 L wideband_controller_mre-rescue:Conn_Molex_02x03 J10
 U 1 1 6195B85F
-P 3175 4525
-F 0 "J10" H 3225 5040 50  0000 C CNN
-F 1 "Molex_Micro-Fit_3.0_43045-0601_43045-0612" H 3225 4949 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal" H 3175 4525 50  0001 C CNN
-F 3 "" H 3175 4525 50  0001 C CNN
-	1    3175 4525
+P 3425 4600
+F 0 "J10" H 3475 5115 50  0000 C CNN
+F 1 "Molex_Micro-Fit_3.0_43045-0601_43045-0612" H 3475 5024 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal" H 3425 4600 50  0001 C CNN
+F 3 "" H 3425 4600 50  0001 C CNN
+	1    3425 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L wideband_controller_mre-rescue:Conn_02x05_Odd_Even-Connector_Generic J20
 U 1 1 6195C7C5
-P 6100 4550
-F 0 "J20" H 6150 5065 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even-Connector_Generic" H 6150 4974 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" H 6100 4550 50  0001 C CNN
-F 3 "" H 6100 4550 50  0001 C CNN
-	1    6100 4550
+P 6250 4550
+F 0 "J20" H 6300 5065 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even-Connector_Generic" H 6300 4974 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" H 6250 4550 50  0001 C CNN
+F 3 "" H 6250 4550 50  0001 C CNN
+	1    6250 4550
 	1    0    0    -1  
 $EndComp
-Text Notes 1925 4250 2    50   ~ 0
+Text Notes 2175 4325 2    50   ~ 0
 red
 Wire Wire Line
-	2425 4225 2975 4225
-Text Label 2425 4225 0    50   ~ 0
+	2675 4300 3225 4300
+Text Label 2675 4300 0    50   ~ 0
 LSU_Ip
 Text Label 8700 4250 2    50   ~ 0
 5V
@@ -229,9 +229,6 @@ Wire Wire Line
 Wire Wire Line
 	9575 4550 9575 4825
 NoConn ~ 9200 4650
-NoConn ~ 5900 4650
-NoConn ~ 5900 4550
-NoConn ~ 5900 4450
 $Comp
 L Power:+5V #PWR0158
 U 1 1 61ABD4FA
@@ -273,12 +270,12 @@ Wire Wire Line
 	9200 4250 9575 4250
 Wire Wire Line
 	9200 4350 9575 4350
-Text Label 2950 4875 2    50   ~ 0
+Text Label 3200 4950 2    50   ~ 0
 12V_MREL
-Text Label 3500 4875 0    50   ~ 0
+Text Label 3750 4950 0    50   ~ 0
 LSU_Heater+
 Wire Wire Line
-	2950 4875 3075 4875
+	3200 4950 3325 4950
 Text Label 7225 2450 0    50   ~ 0
 heater_pwm
 $Comp
@@ -408,9 +405,9 @@ Wire Wire Line
 	8675 2650 8675 2825
 Text GLabel 7225 2450 0    50   Input ~ 0
 heater_pwm
-Text GLabel 2425 4225 0    50   Input ~ 0
+Text GLabel 2675 4300 0    50   Input ~ 0
 LSU_Ip
-Text GLabel 4025 4425 2    50   Input ~ 0
+Text GLabel 4275 4500 2    50   Input ~ 0
 LSU_Un
 Text GLabel 6075 3150 0    50   Input ~ 0
 +5V
@@ -477,16 +474,16 @@ $EndComp
 $Comp
 L Device:Polyfuse F1
 U 1 1 61B7C0C0
-P 3225 4875
-F 0 "F1" V 3450 4875 50  0000 C CNN
-F 1 "Polyfuse 2A" V 3359 4875 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 3275 4675 50  0001 L CNN
-F 3 "~" H 3225 4875 50  0001 C CNN
-	1    3225 4875
+P 3475 4950
+F 0 "F1" V 3700 4950 50  0000 C CNN
+F 1 "Polyfuse 2A" V 3609 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3525 4750 50  0001 L CNN
+F 3 "~" H 3475 4950 50  0001 C CNN
+	1    3475 4950
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3375 4875 3500 4875
+	3625 4950 3750 4950
 $Comp
 L Power:+3.3V #PWR0105
 U 1 1 61B95E7E
@@ -500,70 +497,69 @@ F 3 "" H 2975 2575 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6075 3150 6400 3150
-Text Label 6400 4250 0    50   ~ 0
+Text Label 6550 4250 0    50   ~ 0
 5V
-Text Label 6400 4350 0    50   ~ 0
+Text Label 6550 4350 0    50   ~ 0
 PB8
-Text Label 6400 4450 0    50   ~ 0
+Text Label 6550 4450 0    50   ~ 0
 PC11
-Text Label 6400 4550 0    50   ~ 0
+Text Label 6550 4550 0    50   ~ 0
 PA15
-Text Label 6400 4650 0    50   ~ 0
+Text Label 6550 4650 0    50   ~ 0
 GND
-NoConn ~ 6400 4350
-NoConn ~ 6400 4450
-NoConn ~ 6400 4550
+NoConn ~ 6550 4350
+NoConn ~ 6550 4550
 $Comp
 L Power:+5V #PWR0163
 U 1 1 61AC139C
-P 6700 4250
-F 0 "#PWR0163" H 6700 4100 50  0001 C CNN
-F 1 "+5V" V 6715 4378 50  0000 L CNN
-F 2 "" H 6700 4250 50  0001 C CNN
-F 3 "" H 6700 4250 50  0001 C CNN
-	1    6700 4250
+P 6850 4250
+F 0 "#PWR0163" H 6850 4100 50  0001 C CNN
+F 1 "+5V" V 6865 4378 50  0000 L CNN
+F 2 "" H 6850 4250 50  0001 C CNN
+F 3 "" H 6850 4250 50  0001 C CNN
+	1    6850 4250
 	0    1    -1   0   
 $EndComp
 $Comp
 L Power:GND #PWR0164
 U 1 1 61AC2547
-P 6700 4725
-F 0 "#PWR0164" H 6700 4475 50  0001 C CNN
-F 1 "GND" H 6705 4552 50  0000 C CNN
-F 2 "" H 6700 4725 50  0001 C CNN
-F 3 "" H 6700 4725 50  0001 C CNN
-	1    6700 4725
+P 6850 4725
+F 0 "#PWR0164" H 6850 4475 50  0001 C CNN
+F 1 "GND" H 6855 4552 50  0000 C CNN
+F 2 "" H 6850 4725 50  0001 C CNN
+F 3 "" H 6850 4725 50  0001 C CNN
+	1    6850 4725
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 4725 6700 4650
+	6850 4725 6850 4650
 Wire Wire Line
-	6700 4650 6400 4650
+	6850 4650 6550 4650
 Wire Wire Line
-	6700 4250 6400 4250
+	6850 4250 6550 4250
 $Comp
 L Power:+3.3V #PWR0161
 U 1 1 61AC8B36
-P 5675 4350
-F 0 "#PWR0161" H 5675 4200 50  0001 C CNN
-F 1 "+3.3V" V 5690 4478 50  0000 L CNN
-F 2 "" H 5675 4350 50  0001 C CNN
-F 3 "" H 5675 4350 50  0001 C CNN
-	1    5675 4350
+P 5825 4350
+F 0 "#PWR0161" H 5825 4200 50  0001 C CNN
+F 1 "+3.3V" V 5840 4478 50  0000 L CNN
+F 2 "" H 5825 4350 50  0001 C CNN
+F 3 "" H 5825 4350 50  0001 C CNN
+	1    5825 4350
 	0    -1   -1   0   
 $EndComp
-Text Label 5900 4650 2    50   ~ 0
+Text Label 6050 4650 2    50   ~ 0
 PC12
-Text Label 5900 4550 2    50   ~ 0
+Text Label 6050 4550 2    50   ~ 0
 PC10
-Text Label 5900 4450 2    50   ~ 0
+Text Label 6050 4450 2    50   ~ 0
 PB9
-Text Label 5900 4250 2    50   ~ 0
+Text Label 6050 4250 2    50   ~ 0
 12V_MREL
-Text Label 5900 4350 2    50   ~ 0
+Text Label 6050 4350 2    50   ~ 0
 +3.3V
 Wire Wire Line
-	5900 4350 5675 4350
+	6050 4350 5825 4350
 NoConn ~ 9200 4450
 $Comp
 L wideband_controller_mre-rescue:Conn_02x05_Odd_Even-Connector_Generic J30
@@ -579,23 +575,128 @@ $EndComp
 NoConn ~ 8700 4450
 NoConn ~ 8700 4650
 Wire Wire Line
-	3475 4325 4025 4325
-Text Label 4025 4325 2    50   ~ 0
+	3725 4400 4275 4400
+Text Label 4275 4400 2    50   ~ 0
 LSU_Heater+
-Text GLabel 4025 4225 2    50   Input ~ 0
+Text GLabel 4275 4300 2    50   Input ~ 0
 LSU_Vm
-Text Label 4025 4225 2    50   ~ 0
+Text Label 4275 4300 2    50   ~ 0
 LSU_Vm
 Wire Wire Line
-	3475 4225 4025 4225
-Text GLabel 2425 4425 0    50   Input ~ 0
+	3725 4300 4275 4300
+Text GLabel 2675 4500 0    50   Input ~ 0
 LSU_Rtrim
-Text Label 2425 4425 0    50   ~ 0
+Text Label 2675 4500 0    50   ~ 0
 LSU_Rtrim
 Wire Wire Line
-	2975 4425 2425 4425
+	3225 4500 2675 4500
 Wire Wire Line
-	2425 4325 2975 4325
-Text Label 2425 4325 0    50   ~ 0
+	2675 4400 3225 4400
+Text Label 2675 4400 0    50   ~ 0
 LSU_Heater-
+$Comp
+L micro_rusEFI-rescue:C-Device C42
+U 1 1 618F24C8
+P 5025 6150
+F 0 "C42" H 5140 6196 50  0000 L CNN
+F 1 "100nF" H 5140 6105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5063 6000 50  0001 C CNN
+F 3 "~" H 5025 6150 50  0001 C CNN
+F 4 "C0603C104J5RACTU" H -975 4225 50  0001 C CNN "Part #"
+F 5 "DIGI" H -975 4225 50  0001 C CNN "VEND"
+F 6 "399-7844-1-ND" H -975 4225 50  0001 C CNN "VEND#"
+F 7 "KEMET" H -975 4225 50  0001 C CNN "Manufacturer"
+F 8 "C14663" H 5025 6150 50  0001 C CNN "LCSC"
+	1    5025 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L micro_rusEFI-rescue:GND-power #PWR0137
+U 1 1 5D2F3D06
+P 5025 6375
+F 0 "#PWR0137" H 5025 6125 50  0001 C CNN
+F 1 "GND" H 5030 6202 50  0000 C CNN
+F 2 "" H 5025 6375 50  0001 C CNN
+F 3 "" H 5025 6375 50  0001 C CNN
+	1    5025 6375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5025 5825 5025 6000
+Wire Wire Line
+	5025 6375 5025 6300
+$Comp
+L micro_rusEFI-rescue:GND-power-proteus-rescue #PWR0134
+U 1 1 618F24CD
+P 4300 6750
+AR Path="/618F24CD" Ref="#PWR0134"  Part="1" 
+AR Path="/6206BC2B/618F24CD" Ref="#PWR0134"  Part="1" 
+AR Path="/61A546DF/618F24CD" Ref="#PWR0141"  Part="1" 
+F 0 "#PWR0141" H 4300 6500 50  0001 C CNN
+F 1 "GND" V 4305 6622 50  0000 R CNN
+F 2 "" H 4300 6750 50  0001 C CNN
+F 3 "" H 4300 6750 50  0001 C CNN
+	1    4300 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 6750 4300 6700
+Wire Wire Line
+	4300 6700 4250 6700
+$Comp
+L micro_rusEFI-rescue:GND-power-proteus-rescue #PWR0135
+U 1 1 618F24CE
+P 2475 6300
+AR Path="/618F24CE" Ref="#PWR0135"  Part="1" 
+AR Path="/6206BC2B/618F24CE" Ref="#PWR0135"  Part="1" 
+AR Path="/61A546DF/618F24CE" Ref="#PWR0162"  Part="1" 
+F 0 "#PWR0162" H 2475 6050 50  0001 C CNN
+F 1 "GND" V 2480 6172 50  0000 R CNN
+F 2 "" H 2475 6300 50  0001 C CNN
+F 3 "" H 2475 6300 50  0001 C CNN
+	1    2475 6300
+	0    1    1    0   
+$EndComp
+NoConn ~ 2550 5800
+NoConn ~ 2550 6500
+Wire Wire Line
+	2475 6300 2550 6300
+Wire Wire Line
+	2475 5900 2550 5900
+Wire Wire Line
+	2475 6200 2550 6200
+Wire Wire Line
+	2450 6100 2550 6100
+Wire Wire Line
+	2475 6000 2550 6000
+Wire Wire Line
+	2550 6400 2475 6400
+Text Label 5025 5825 2    50   ~ 10
++3.3V
+Text Label 2450 6100 2    50   ~ 10
++3.3V
+Text Label 2475 5900 2    50   ~ 10
+PB9
+Text Label 2475 6000 2    50   ~ 10
+PC12
+Text Label 2475 6200 2    50   ~ 10
+PC10
+Text Label 2475 6400 2    50   ~ 10
+PC11
+$Comp
+L micro_rusEFI-rescue:Micro_SD_Card-Connector-proteus-rescue J14
+U 1 1 5F3076E2
+P 3450 6100
+AR Path="/5F3076E2" Ref="J14"  Part="1" 
+AR Path="/6206BC2B/5F3076E2" Ref="J14"  Part="1" 
+AR Path="/61A546DF/5F3076E2" Ref="J15"  Part="1" 
+F 0 "J15" H 3400 6817 50  0000 C CNN
+F 1 "microSD_HC_Wuerth_693072010801" H 3400 6726 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Wuerth_693072010801" H 4600 6400 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 3450 6100 50  0001 C CNN
+F 4 "N/A" H 3450 6100 50  0001 C CNN "LCSC"
+F 5 "47219-2001" H 3450 6100 50  0001 C CNN "PN"
+	1    3450 6100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
