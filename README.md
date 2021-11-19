@@ -8,3 +8,5 @@ It can be used on all MRE with appropriate connector headers.
 
 Wideband controller require CAN bus connectivity and power supply form 12MREL pin for sensor heater.
 LSU 4.9 sensor wires are connected via MOLEX MicroFit 3x2 connector 43045-0601 or 43045-0612
+
+![wideband_controller_mre](https://github.com/JRDMcLAREN/wideband_controller_mre/blob/main/wideband_controller_mre.jpg)
