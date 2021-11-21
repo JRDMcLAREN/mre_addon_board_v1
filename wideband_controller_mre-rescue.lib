@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# +3.3V-power
+# +3.3V-power-wideband_controller_mre-rescue
 #
-DEF +3.3V-power #PWR 0 0 Y Y 1 F P
+DEF +3.3V-power-wideband_controller_mre-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+3.3V-power" 0 140 50 H V C CNN
+F1 "+3.3V-power-wideband_controller_mre-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# +5V-power
+# +5V-power-wideband_controller_mre-rescue
 #
-DEF +5V-power #PWR 0 0 Y Y 1 F P
+DEF +5V-power-wideband_controller_mre-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+5V-power" 0 140 50 H V C CNN
+F1 "+5V-power-wideband_controller_mre-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AD8603-Amplifier_Operational
+# AD8603-Amplifier_Operational-wideband_controller_mre-rescue
 #
-DEF AD8603-Amplifier_Operational U 0 5 Y Y 1 F N
+DEF AD8603-Amplifier_Operational-wideband_controller_mre-rescue U 0 5 Y Y 1 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "AD8603-Amplifier_Operational" 0 -200 50 H V L CNN
+F1 "AD8603-Amplifier_Operational-wideband_controller_mre-rescue" 0 -200 50 H V L CNN
 F2 "Package_TO_SOT_SMD:TSOT-23-5" 0 0 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 $FPLIST
@@ -51,69 +51,29 @@ X - 4 -300 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Conn_01x08-Connector_Generic
+# C-Device-micro_rusEFI-rescue
 #
-DEF Conn_01x08-Connector_Generic J 0 40 Y N 1 F N
-F0 "J" 0 400 50 H V C CNN
-F1 "Conn_01x08-Connector_Generic" 0 -500 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+DEF C-Device-micro_rusEFI-rescue C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "C-Device-micro_rusEFI-rescue" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_1x??_*
+ C_*
 $ENDFPLIST
 DRAW
-S -50 -395 0 -405 1 1 6 N
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 305 0 295 1 1 6 N
-S -50 350 50 -450 1 1 10 f
-X Pin_1 1 -200 300 150 R 50 50 1 1 P
-X Pin_2 2 -200 200 150 R 50 50 1 1 P
-X Pin_3 3 -200 100 150 R 50 50 1 1 P
-X Pin_4 4 -200 0 150 R 50 50 1 1 P
-X Pin_5 5 -200 -100 150 R 50 50 1 1 P
-X Pin_6 6 -200 -200 150 R 50 50 1 1 P
-X Pin_7 7 -200 -300 150 R 50 50 1 1 P
-X Pin_8 8 -200 -400 150 R 50 50 1 1 P
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_02x03_Odd_Even-Connector_Generic
+# Conn_02x05_Odd_Even-Connector_Generic-wideband_controller_mre-rescue
 #
-DEF Conn_02x03_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_02x05_Odd_Even-Connector_Generic-wideband_controller_mre-rescue J 0 40 Y N 1 F N
 F0 "J" 50 400 50 H V C CNN
-F1 "Conn_02x03_Odd_Even-Connector_Generic" 0 -50 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_2x??_*
-$ENDFPLIST
-DRAW
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 305 0 295 1 1 6 N
-S 150 105 100 95 1 1 6 N
-S 150 205 100 195 1 1 6 N
-S 150 305 100 295 1 1 6 N
-P 5 0 1 0 -50 350 -50 50 150 50 150 350 -50 350 f
-X Pin_1 1 -200 300 150 R 50 50 1 1 P
-X Pin_2 2 300 300 150 L 50 50 1 1 P
-X Pin_3 3 -200 200 150 R 50 50 1 1 P
-X Pin_4 4 300 200 150 L 50 50 1 1 P
-X Pin_5 5 -200 100 150 R 50 50 1 1 P
-X Pin_6 6 300 100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Conn_02x05_Odd_Even-Connector_Generic
-#
-DEF Conn_02x05_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
-F0 "J" 50 400 50 H V C CNN
-F1 "Conn_02x05_Odd_Even-Connector_Generic" 50 -250 50 H V C CNN
+F1 "Conn_02x05_Odd_Even-Connector_Generic-wideband_controller_mre-rescue" 50 -250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -144,54 +104,11 @@ X Pin_9 9 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_02x07_Odd_Even-Connector_Generic
+# Conn_Molex_02x03-wideband_controller_mre-rescue
 #
-DEF Conn_02x07_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_Molex_02x03-wideband_controller_mre-rescue J 0 40 Y N 1 F N
 F0 "J" 50 400 50 H V C CNN
-F1 "Conn_02x07_Odd_Even-Connector_Generic" 50 -400 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_2x??_*
-$ENDFPLIST
-DRAW
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 305 0 295 1 1 6 N
-S -50 350 150 -350 1 1 10 f
-S 150 -295 100 -305 1 1 6 N
-S 150 -195 100 -205 1 1 6 N
-S 150 -95 100 -105 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-S 150 105 100 95 1 1 6 N
-S 150 205 100 195 1 1 6 N
-S 150 305 100 295 1 1 6 N
-X Pin_1 1 -200 300 150 R 50 50 1 1 P
-X Pin_10 10 300 -100 150 L 50 50 1 1 P
-X Pin_11 11 -200 -200 150 R 50 50 1 1 P
-X Pin_12 12 300 -200 150 L 50 50 1 1 P
-X Pin_13 13 -200 -300 150 R 50 50 1 1 P
-X Pin_14 14 300 -300 150 L 50 50 1 1 P
-X Pin_2 2 300 300 150 L 50 50 1 1 P
-X Pin_3 3 -200 200 150 R 50 50 1 1 P
-X Pin_4 4 300 200 150 L 50 50 1 1 P
-X Pin_5 5 -200 100 150 R 50 50 1 1 P
-X Pin_6 6 300 100 150 L 50 50 1 1 P
-X Pin_7 7 -200 0 150 R 50 50 1 1 P
-X Pin_8 8 300 0 150 L 50 50 1 1 P
-X Pin_9 9 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Conn_Molex_02x03
-#
-DEF Conn_Molex_02x03 J 0 40 Y N 1 F N
-F0 "J" 50 400 50 H V C CNN
-F1 "Conn_Molex_02x03" 0 -50 50 H V C CNN
+F1 "Conn_Molex_02x03-wideband_controller_mre-rescue" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -214,11 +131,11 @@ X Pin_6 6 -200 100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GND-power
+# GND-power-can_conn_mre_wbo2-rescue
 #
-DEF GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power-can_conn_mre_wbo2-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND-power" 0 -150 50 H V C CNN
+F1 "GND-power-can_conn_mre_wbo2-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -227,11 +144,50 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Jumper_3_Open-Jumper
+# GND-power-micro_rusEFI-rescue
 #
-DEF Jumper_3_Open-Jumper JP 0 0 Y N 1 F N
+DEF GND-power-micro_rusEFI-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-power-micro_rusEFI-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GND-power-proteus-rescue-micro_rusEFI-rescue
+#
+DEF GND-power-proteus-rescue-micro_rusEFI-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-power-proteus-rescue-micro_rusEFI-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GND-power-wideband_controller_mre-rescue
+#
+DEF GND-power-wideband_controller_mre-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-power-wideband_controller_mre-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Jumper_3_Open-Jumper-wideband_controller_mre-rescue
+#
+DEF Jumper_3_Open-Jumper-wideband_controller_mre-rescue JP 0 0 Y N 1 F N
 F0 "JP" -100 -100 50 H V C CNN
-F1 "Jumper_3_Open-Jumper" 0 110 50 H V C CNN
+F1 "Jumper_3_Open-Jumper-wideband_controller_mre-rescue" 0 110 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -252,11 +208,11 @@ X B 3 250 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCP6004-Amplifier_Operational
+# MCP6004-Amplifier_Operational-wideband_controller_mre-rescue
 #
-DEF MCP6004-Amplifier_Operational U 0 5 Y Y 5 L N
+DEF MCP6004-Amplifier_Operational-wideband_controller_mre-rescue U 0 5 Y Y 5 L N
 F0 "U" 0 200 50 H V L CNN
-F1 "MCP6004-Amplifier_Operational" 0 -200 50 H V L CNN
+F1 "MCP6004-Amplifier_Operational-wideband_controller_mre-rescue" 0 -200 50 H V L CNN
 F2 "" -50 100 50 H I C CNN
 F3 "" 50 200 50 H I C CNN
 $FPLIST
@@ -288,24 +244,44 @@ X V+ 4 -100 300 150 D 50 50 5 1 W
 ENDDRAW
 ENDDEF
 #
-# PWR_FLAG-power
+# Micro_SD_Card-Connector-proteus-rescue-micro_rusEFI-rescue
 #
-DEF PWR_FLAG-power #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "PWR_FLAG-power" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+DEF Micro_SD_Card-Connector-proteus-rescue-micro_rusEFI-rescue J 0 40 Y Y 1 F N
+F0 "J" -650 600 50 H V C CNN
+F1 "Micro_SD_Card-Connector-proteus-rescue-micro_rusEFI-rescue" 650 600 50 H V R CNN
+F2 "" 1150 300 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ microSD*
+$ENDFPLIST
 DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
+S -300 -375 -200 -425 0 1 0 F
+S -300 -275 -200 -325 0 1 0 F
+S -300 -175 -200 -225 0 1 0 F
+S -300 -75 -200 -125 0 1 0 F
+S -300 25 -200 -25 0 1 0 F
+S -300 125 -200 75 0 1 0 F
+S -300 225 -200 175 0 1 0 F
+S -300 325 -200 275 0 1 0 F
+P 6 0 1 10 650 500 650 550 -750 550 -750 -650 650 -650 650 -450 N
+P 11 0 1 10 -350 -450 -350 350 -50 350 100 500 150 500 150 450 250 450 300 500 800 500 800 -450 -350 -450 f
+X DAT2 1 -900 300 150 R 50 50 1 1 B
+X DAT3/CD 2 -900 200 150 R 50 50 1 1 B
+X CMD 3 -900 100 150 R 50 50 1 1 I
+X VDD 4 -900 0 150 R 50 50 1 1 W
+X CLK 5 -900 -100 150 R 50 50 1 1 I
+X VSS 6 -900 -200 150 R 50 50 1 1 W
+X DAT0 7 -900 -300 150 R 50 50 1 1 B
+X DAT1 8 -900 -400 150 R 50 50 1 1 B
+X SHIELD 9 800 -600 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# REF3033-Reference_Voltage
+# REF3033-Reference_Voltage-wideband_controller_mre-rescue
 #
-DEF REF3033-Reference_Voltage U 0 10 Y Y 1 F N
+DEF REF3033-Reference_Voltage-wideband_controller_mre-rescue U 0 10 Y Y 1 F N
 F0 "U" 0 250 50 H V C CNN
-F1 "REF3033-Reference_Voltage" 100 -250 50 H V C CIN
+F1 "REF3033-Reference_Voltage-wideband_controller_mre-rescue" 100 -250 50 H V C CIN
 F2 "Package_TO_SOT_SMD:SOT-23" 0 -450 50 H I C CIN
 F3 "" 100 -350 50 H I C CIN
 $FPLIST
@@ -322,11 +298,11 @@ X GND 3 -100 -300 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# STM32F042K6Tx-MCU_ST_STM32F0
+# STM32F042K6Tx-MCU_ST_STM32F0-wideband_controller_mre-rescue
 #
-DEF STM32F042K6Tx-MCU_ST_STM32F0 U 0 20 Y Y 1 F N
+DEF STM32F042K6Tx-MCU_ST_STM32F0-wideband_controller_mre-rescue U 0 20 Y Y 1 F N
 F0 "U" -400 850 50 H V L CNN
-F1 "STM32F042K6Tx-MCU_ST_STM32F0" 200 850 50 H V L CNN
+F1 "STM32F042K6Tx-MCU_ST_STM32F0-wideband_controller_mre-rescue" 200 850 50 H V L CNN
 F2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" -400 -900 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -369,11 +345,34 @@ X PA3 9 500 400 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# VDDA-power
+# TJA1051T-3-Interface_CAN_LIN-can_conn_mre_wbo2-rescue
 #
-DEF VDDA-power #PWR 0 0 Y Y 1 F P
+DEF TJA1051T-3-Interface_CAN_LIN-can_conn_mre_wbo2-rescue U 0 40 Y Y 1 F N
+F0 "U" -400 350 50 H V L CNN
+F1 "TJA1051T-3-Interface_CAN_LIN-can_conn_mre_wbo2-rescue" 50 350 50 H V L CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 -500 50 H I C CIN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+$ENDFPLIST
+DRAW
+S -400 300 400 -300 0 1 10 f
+X TXD 1 -500 200 100 R 50 50 1 1 I
+X GND 2 0 -400 100 U 50 50 1 1 W
+X VCC 3 0 400 100 D 50 50 1 1 W
+X RXD 4 -500 100 100 R 50 50 1 1 O
+X VIO 5 -500 -100 100 R 50 50 1 1 W
+X CANL 6 500 -100 100 L 50 50 1 1 B
+X CANH 7 500 100 100 L 50 50 1 1 B
+X S 8 -500 -200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# VDDA-power-wideband_controller_mre-rescue
+#
+DEF VDDA-power-wideband_controller_mre-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VDDA-power" 0 150 50 H V C CNN
+F1 "VDDA-power-wideband_controller_mre-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -381,24 +380,6 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X VDDA 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# XC6206PxxxMR-Regulator_Linear
-#
-DEF XC6206PxxxMR-Regulator_Linear U 0 10 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "XC6206PxxxMR-Regulator_Linear" 0 125 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 0 225 50 H I C CIN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SOT?23*
-$ENDFPLIST
-DRAW
-S -200 75 200 -200 0 1 10 f
-X GND 1 0 -300 100 U 50 50 1 1 W
-X VO 2 300 0 100 L 50 50 1 1 w
-X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #

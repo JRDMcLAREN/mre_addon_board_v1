@@ -48,7 +48,7 @@ F 4 "C11702" H 1100 1525 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0102
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0102
 U 1 1 5EB10275
 P 1100 1675
 F 0 "#PWR0102" H 1100 1425 50  0001 C CNN
@@ -92,7 +92,7 @@ Wire Wire Line
 Wire Wire Line
 	800  1275 1100 1275
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0103
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0103
 U 1 1 5EB130B2
 P 800 1675
 F 0 "#PWR0103" H 800 1425 50  0001 C CNN
@@ -285,7 +285,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 1375 4600 1375
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0104
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0104
 U 1 1 5EAEDFB7
 P 4200 1825
 F 0 "#PWR0104" H 4200 1575 50  0001 C CNN
@@ -365,7 +365,7 @@ Connection ~ 2900 1375
 Wire Wire Line
 	2900 1375 2600 1375
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0118
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0118
 U 1 1 5EB4A413
 P 2900 1750
 F 0 "#PWR0118" H 2900 1500 50  0001 C CNN
@@ -410,7 +410,7 @@ LSU_Un_sense
 Text Notes 3575 4550 2    50   ~ 0
 Nernst Sense Voltage Buffer
 $Comp
-L wideband_controller_mre-rescue:MCP6004-Amplifier_Operational U2
+L wideband_controller_mre-rescue:MCP6004-Amplifier_Operational-wideband_controller_mre-rescue U2
 U 2 1 5F8841DC
 P 5000 1475
 F 0 "U2" H 5150 1725 50  0000 C CNN
@@ -422,7 +422,7 @@ F 4 "C50282" H 5000 1475 50  0001 C CNN "LCSC"
 	1    0    0    1   
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:MCP6004-Amplifier_Operational U2
+L wideband_controller_mre-rescue:MCP6004-Amplifier_Operational-wideband_controller_mre-rescue U2
 U 1 1 5F8980DF
 P 1925 2650
 F 0 "U2" H 1900 2875 50  0000 C CNN
@@ -436,7 +436,7 @@ $EndComp
 Wire Wire Line
 	3775 3325 3825 3325
 $Comp
-L wideband_controller_mre-rescue:MCP6004-Amplifier_Operational U2
+L wideband_controller_mre-rescue:MCP6004-Amplifier_Operational-wideband_controller_mre-rescue U2
 U 4 1 5F8B9D88
 P 1775 1375
 F 0 "U2" H 1925 1625 50  0000 C CNN
@@ -484,7 +484,7 @@ F 4 "C52923" H 8375 1500 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:+3.3V-power #PWR0121
+L wideband_controller_mre-rescue:+3.3V-power-wideband_controller_mre-rescue #PWR0121
 U 1 1 5F989EEA
 P 7100 2375
 F 0 "#PWR0121" H 7100 2225 50  0001 C CNN
@@ -519,7 +519,7 @@ F 4 "C25890" H 4775 3425 50  0001 C CNN "LCSC"
 	0    -1   1    0   
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0122
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0122
 U 1 1 5FE88E31
 P 5000 3800
 F 0 "#PWR0122" H 5000 3550 50  0001 C CNN
@@ -570,7 +570,7 @@ F 4 "C1525" H 9575 2975 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:+3.3V-power #PWR0124
+L wideband_controller_mre-rescue:+3.3V-power-wideband_controller_mre-rescue #PWR0124
 U 1 1 6014191D
 P 10025 2825
 F 0 "#PWR0124" H 10025 2675 50  0001 C CNN
@@ -581,7 +581,7 @@ F 3 "" H 10025 2825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:+3.3V-power #PWR0125
+L wideband_controller_mre-rescue:+3.3V-power-wideband_controller_mre-rescue #PWR0125
 U 1 1 60141F92
 P 9575 2825
 F 0 "#PWR0125" H 9575 2675 50  0001 C CNN
@@ -592,7 +592,7 @@ F 3 "" H 9575 2825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0126
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0126
 U 1 1 60142538
 P 9575 3125
 F 0 "#PWR0126" H 9575 2875 50  0001 C CNN
@@ -641,7 +641,7 @@ F 4 "C11702" V 10550 4275 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0131
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0131
 U 1 1 607B4BA6
 P 10700 4275
 F 0 "#PWR0131" H 10700 4025 50  0001 C CNN
@@ -793,7 +793,7 @@ UART_RX
 Wire Wire Line
 	7925 3750 8425 3750
 $Comp
-L wideband_controller_mre-rescue:+3.3V-power #PWR0133
+L wideband_controller_mre-rescue:+3.3V-power-wideband_controller_mre-rescue #PWR0133
 U 1 1 602BD44D
 P 1550 6725
 F 0 "#PWR0133" H 1550 6575 50  0001 C CNN
@@ -816,7 +816,7 @@ F 4 "C1525" H 1550 6875 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:+3.3V-power #PWR0134
+L wideband_controller_mre-rescue:+3.3V-power-wideband_controller_mre-rescue #PWR0134
 U 1 1 5FBB375A
 P 1100 6550
 F 0 "#PWR0134" H 1100 6400 50  0001 C CNN
@@ -827,7 +827,7 @@ F 3 "" H 1100 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:+3.3V-power #PWR0135
+L wideband_controller_mre-rescue:+3.3V-power-wideband_controller_mre-rescue #PWR0135
 U 1 1 5FBB1A01
 P 4025 3725
 F 0 "#PWR0135" H 4025 3575 50  0001 C CNN
@@ -838,7 +838,7 @@ F 3 "" H 4025 3725 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0136
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0136
 U 1 1 5FBB1764
 P 1100 7150
 F 0 "#PWR0136" H 1100 6900 50  0001 C CNN
@@ -849,7 +849,7 @@ F 3 "" H 1100 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:MCP6004-Amplifier_Operational U2
+L wideband_controller_mre-rescue:MCP6004-Amplifier_Operational-wideband_controller_mre-rescue U2
 U 5 1 5FBAFE30
 P 1200 6850
 F 0 "U2" H 1100 6850 50  0000 C CNN
@@ -866,7 +866,7 @@ Wire Wire Line
 	2725 4925 2725 5025
 Connection ~ 2325 3050
 $Comp
-L wideband_controller_mre-rescue:AD8603-Amplifier_Operational U3
+L wideband_controller_mre-rescue:AD8603-Amplifier_Operational-wideband_controller_mre-rescue U3
 U 1 1 5FBC4CB6
 P 4125 3425
 F 0 "U3" H 4125 3250 50  0000 C CNN
@@ -878,7 +878,7 @@ F 4 "C29309" H 4125 3425 50  0001 C CNN "LCSC"
 	1    0    0    1   
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:MCP6004-Amplifier_Operational U2
+L wideband_controller_mre-rescue:MCP6004-Amplifier_Operational-wideband_controller_mre-rescue U2
 U 3 1 5F8996DF
 P 3125 4825
 F 0 "U2" H 3275 5075 50  0000 C CNN
@@ -890,7 +890,7 @@ F 4 "C50282" H 3125 4825 50  0001 C CNN "LCSC"
 	1    0    0    1   
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0138
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0138
 U 1 1 5FBF4CD9
 P 4025 3125
 F 0 "#PWR0138" H 4025 2875 50  0001 C CNN
@@ -915,7 +915,7 @@ F 4 "C25765" H 1575 4600 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0139
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0139
 U 1 1 5FDFC1AE
 P 1975 7025
 F 0 "#PWR0139" H 1975 6775 50  0001 C CNN
@@ -926,7 +926,7 @@ F 3 "" H 1975 7025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:+3.3V-power #PWR0140
+L wideband_controller_mre-rescue:+3.3V-power-wideband_controller_mre-rescue #PWR0140
 U 1 1 5FDFC1B4
 P 1975 6725
 F 0 "#PWR0140" H 1975 6575 50  0001 C CNN
@@ -994,7 +994,7 @@ F 4 "C11702" V 10550 4625 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0142
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0142
 U 1 1 5FC3F94B
 P 10700 4625
 F 0 "#PWR0142" H 10700 4375 50  0001 C CNN
@@ -1029,7 +1029,7 @@ Wire Wire Line
 Text Label 10250 1300 2    50   ~ 0
 UART_RX
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0143
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0143
 U 1 1 5FC6E3EC
 P 10250 1200
 F 0 "#PWR0143" H 10250 950 50  0001 C CNN
@@ -1049,7 +1049,7 @@ Wire Wire Line
 	7925 4050 8400 4050
 Connection ~ 7325 2425
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0144
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0144
 U 1 1 5FC4CC4B
 P 7425 4450
 F 0 "#PWR0144" H 7425 4200 50  0001 C CNN
@@ -1060,7 +1060,7 @@ F 3 "" H 7425 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0145
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0145
 U 1 1 5FC4C0F0
 P 7325 4450
 F 0 "#PWR0145" H 7325 4200 50  0001 C CNN
@@ -1087,7 +1087,7 @@ F 4 "C25744" H 6150 4250 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0146
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0146
 U 1 1 60687757
 P 6000 4250
 F 0 "#PWR0146" H 6000 4000 50  0001 C CNN
@@ -1102,7 +1102,7 @@ NoConn ~ 7925 3250
 NoConn ~ 6925 3750
 NoConn ~ 6925 3850
 $Comp
-L wideband_controller_mre-rescue:STM32F042K6Tx-MCU_ST_STM32F0 U1
+L wideband_controller_mre-rescue:STM32F042K6Tx-MCU_ST_STM32F0-wideband_controller_mre-rescue U1
 U 1 1 5FF3B038
 P 7425 3450
 F 0 "U1" H 7075 2500 50  0000 C CNN
@@ -1153,7 +1153,7 @@ Connection ~ 6750 2750
 Wire Wire Line
 	6750 2750 6400 2750
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0147
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0147
 U 1 1 5FE58F6B
 P 6750 3100
 F 0 "#PWR0147" H 6750 2850 50  0001 C CNN
@@ -1164,7 +1164,7 @@ F 3 "" H 6750 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:REF3033-Reference_Voltage U4
+L wideband_controller_mre-rescue:REF3033-Reference_Voltage-wideband_controller_mre-rescue U4
 U 1 1 5FECCFD4
 P 7875 1275
 F 0 "U4" H 7975 1550 50  0000 R CNN
@@ -1176,7 +1176,7 @@ F 4 "C36658" H 7875 1275 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:+5V-power #PWR0149
+L wideband_controller_mre-rescue:+5V-power-wideband_controller_mre-rescue #PWR0149
 U 1 1 5FECF4FF
 P 7025 800
 F 0 "#PWR0149" H 7025 650 50  0001 C CNN
@@ -1187,7 +1187,7 @@ F 3 "" H 7025 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:VDDA-power #PWR0150
+L wideband_controller_mre-rescue:VDDA-power-wideband_controller_mre-rescue #PWR0150
 U 1 1 5FED060D
 P 8700 1200
 F 0 "#PWR0150" H 8700 1050 50  0001 C CNN
@@ -1198,7 +1198,7 @@ F 3 "" H 8700 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:VDDA-power #PWR0151
+L wideband_controller_mre-rescue:VDDA-power-wideband_controller_mre-rescue #PWR0151
 U 1 1 5FF0F5A7
 P 7425 2350
 F 0 "#PWR0151" H 7425 2200 50  0001 C CNN
@@ -1209,7 +1209,7 @@ F 3 "" H 7425 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:VDDA-power #PWR0152
+L wideband_controller_mre-rescue:VDDA-power-wideband_controller_mre-rescue #PWR0152
 U 1 1 5FF18494
 P 1100 875
 F 0 "#PWR0152" H 1100 725 50  0001 C CNN
@@ -1241,7 +1241,7 @@ Wire Wire Line
 	7025 975  7025 875 
 Connection ~ 7025 875 
 $Comp
-L wideband_controller_mre-rescue:GND-power #PWR0153
+L wideband_controller_mre-rescue:GND-power-wideband_controller_mre-rescue #PWR0153
 U 1 1 5FF3CC7C
 P 7025 1275
 F 0 "#PWR0153" H 7025 1025 50  0001 C CNN
@@ -1256,7 +1256,7 @@ Wire Wire Line
 Connection ~ 8700 1275
 NoConn ~ 7925 3150
 $Comp
-L wideband_controller_mre-rescue:Jumper_3_Open-Jumper JP1
+L wideband_controller_mre-rescue:Jumper_3_Open-Jumper-wideband_controller_mre-rescue JP1
 U 1 1 60A55596
 P 8550 5075
 F 0 "JP1" V 8550 5162 50  0000 L CNN
@@ -1278,7 +1278,7 @@ F 3 "" H 8550 5325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:+3.3V-power #PWR0155
+L wideband_controller_mre-rescue:+3.3V-power-wideband_controller_mre-rescue #PWR0155
 U 1 1 60A5820A
 P 8550 4825
 F 0 "#PWR0155" H 8550 4675 50  0001 C CNN
@@ -1293,7 +1293,7 @@ Wire Wire Line
 Text Label 8975 5075 2    50   ~ 0
 SEL_1
 $Comp
-L wideband_controller_mre-rescue:Jumper_3_Open-Jumper JP2
+L wideband_controller_mre-rescue:Jumper_3_Open-Jumper-wideband_controller_mre-rescue JP2
 U 1 1 60A736F8
 P 8550 6050
 F 0 "JP2" V 8550 6137 50  0000 L CNN
@@ -1315,7 +1315,7 @@ F 3 "" H 8550 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wideband_controller_mre-rescue:+3.3V-power #PWR0157
+L wideband_controller_mre-rescue:+3.3V-power-wideband_controller_mre-rescue #PWR0157
 U 1 1 60A73704
 P 8550 5800
 F 0 "#PWR0157" H 8550 5650 50  0001 C CNN
