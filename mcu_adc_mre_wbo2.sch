@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "MRE addon board - WBO2 & SD"
-Date "2021-11-19"
-Rev "V1.1"
+Date "2021-11-21"
+Rev "V1.2"
 Comp "by JRD McLAREN"
 Comment1 ""
 Comment2 ""

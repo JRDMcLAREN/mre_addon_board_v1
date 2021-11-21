@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name rusefi_lib_external)(type KiCad)(uri /home/kocur/wideband/board_mre/wideband_controller_mre/rusefi_lib_external)(options "")(descr ""))
-  (lib (name rusefi_lib)(type KiCad)(uri ${KIPRJMOD}/rusefi_lib_external/rusefi_lib.pretty)(options "")(descr ""))
+  (lib (name rusefi_lib_external)(type KiCad)(uri ${KIPRJMOD}/rusefi_lib_external)(options "")(descr ""))
 )
