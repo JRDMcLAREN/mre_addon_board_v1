@@ -1,4 +1,4 @@
-4727103876025832
+4642044859425832
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -20524,306 +20524,19 @@ SMD Shunt Resistor
 4
 2
 rusefi_lib
-8-1393476-0
-
-
-0
-82
-82
-rusefi_lib
-55pin_china_bosch_motronic
-
-
-0
-55
-55
-rusefi_lib
-64333-0100_1
-64333-0100
-Connector
-0
-117
-117
-rusefi_lib
-172319-1_connector
-172319-1_connector
-
-0
-52
-52
-rusefi_lib
-174917
-
-
-0
-51
-48
-rusefi_lib
-176122-6_2nd
-
-
-0
-68
-64
-rusefi_lib
-284617-1
-
-
-0
-159
-154
-rusefi_lib
-368255-2
-
-
-0
-126
-121
-rusefi_lib
-825213-1
-
-
-0
-37
-37
-rusefi_lib
-963356-1
-963356-1
-
-0
-68
-68
-rusefi_lib
-966595-1
-966595-1
-
-0
-68
-68
-rusefi_lib
-1123038-2
-
-
-0
-74
-72
-rusefi_lib
-744710610-Inductor
-744710610
-744710610
+LED-0603-rusEFI
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://datasheet.octopart.com/LTST-C190KFKT-Lite-On-datasheet-11871294.pdf), generated from KICAD lib
+diode LED
 0
 2
 2
 rusefi_lib
-AMPSEAL_35_COMBINED
-
-776163 776180 1-776163 1-776180 776230 776231 1-776230 1-776231
-0
-35
-35
-rusefi_lib
-AMPSEAL_35_RIGHT_ANGLE
-
-776163 776180 1-776163 1-776180
-0
-35
-35
-rusefi_lib
-AMPSEAL_35_STRAIGHT
-
-776230 776231 1-776230 1-776231
-0
-35
-35
-rusefi_lib
-BATT_CR2032_MPD
-
-
-0
-2
-2
-rusefi_lib
-BATT_CR2032_MPD_CR2032-BS-6-1
-
-
-0
-2
-2
-rusefi_lib
-BOSCH-88pin
-
-
-0
-88
-88
-rusefi_lib
-Blank
-blank
-blank
-0
-0
-0
-rusefi_lib
-C_0805
-Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
-capacitor 0805
-0
-2
-2
-rusefi_lib
-DISPLAY_4x20_BL
-Connecteur 16 pins
-CONN DEV
-0
-23
-16
-rusefi_lib
-DPAK2
-MOS boitier DPACK G-D-S
-CMD DPACK
-0
-3
-3
-rusefi_lib
-D_0805
-Diode SMD in 0805 package
-smd diode
-0
-2
-2
-rusefi_lib
-HC-18U
-Quartz boitier HC-49 Vertical
-QUARTZ DEV
-0
-2
-2
-rusefi_lib
-HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown_ThermalVias
-HSOP 11.0x15.9mm Pitch 1.27mm Slug Down Thermal Vias (PowerSO-20) [JEDEC MO-166] (http://www.st.com/resource/en/datasheet/tda7266d.pdf, www.st.com/resource/en/application_note/cd00003801.pdf)
-HSOP 11.0 x 15.9mm Pitch 1.27mm
-0
-45
-21
-rusefi_lib
-HTQFP-64-1EP_10x10mm_Pitch0.5mm_ThermalPad_for_MC33816
-64-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1 mm Body, 2.00 mm Footprint [HTQFP] thermal pad
-HTQFP-64 Pitch 0.5_for_MC33816_Slug
-0
-102
-65
-rusefi_lib
-IHLP6767GZER100M01
-IHLP6767GZER100M01
-IHLP6767GZER100M01
-0
-2
-2
-rusefi_lib
-ITEAD_HC-05
-Itead HC-05/HC-06 serial Bluetooth module
-
-0
-34
-34
-rusefi_lib
-JLC_PCB_TAG
+LogoMRE
 
 
 0
 0
 0
-rusefi_lib
-KeyStone_3557
-
-
-0
-2
-1
-rusefi_lib
-LED-0805_A
-LED 0805 smd
-LED 0805 SMD
-0
-2
-2
-rusefi_lib
-LOGO
-
-
-0
-0
-0
-rusefi_lib
-LOGO_F
-
-
-0
-0
-0
-rusefi_lib
-LQFP-80_12x12mm_Pitch0.5mmThermal
-LQFP80: plastic low profile quad flat package; 80 leads; body 12 x 12 x 1.4 mm (see NXP sot315-1_po.pdf and sot315-1_fr.pdf)
-QFP 0.5
-0
-131
-81
-rusefi_lib
-MICRO-SDCARD-CONNECTOR-3300060P1
-MICRO-SDCARD-CONNECTOR-3300060P1
-MICRO SD MEMORY CARD MMC
-0
-15
-13
-rusefi_lib
-MINI-USB_RCTP_V-T_B
-OPL
-USB MINI 5 SMD-1
-0
-8
-6
-rusefi_lib
-MINI-USB_RCTP_V-T_B_and_HW-MU-5F-23
-OPL
-USB MINI 5 SMD-1
-0
-10
-6
-rusefi_lib
-MPX-4_MAP
-
-
-0
-8
-6
-rusefi_lib
-MRE_QR_code
-
-
-0
-0
-0
-rusefi_lib
-MX7-C-35PL-C11
-
-
-0
-37
-35
-rusefi_lib
-Molex_48
-Through hole straight socket strip, 2x10, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
-Through hole socket strip THT 2x10 2.54mm double row
-0
-52
-48
-rusefi_lib
-Molex_48_MRE
-Through hole straight socket strip, 2x10, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
-Through hole socket strip THT 2x10 2.54mm double row
-0
-110
-106
 rusefi_lib
 Molex_48_MRE_R055
 Through hole straight socket strip, 2x10, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
@@ -20832,152 +20545,26 @@ Through hole socket strip THT 2x10 2.54mm double row
 114
 110
 rusefi_lib
-Molex_48_MRE_with-extras
-Through hole straight socket strip, 2x10, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
-Through hole socket strip THT 2x10 2.54mm double row
-0
-91
-87
-rusefi_lib
-OSHW-Logo2_7.3x6mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-rusefi_lib
-Off_Road_Disclaimer
-
-
-0
-0
-0
-rusefi_lib
-PG-DSO-20-88
-
-
-0
-22
-21
-rusefi_lib
-PG-DSO-36-72
-
-
-0
-57
-37
-rusefi_lib
-PIN_ARRAY_25x2_A
-2 x 25 pins connector
-CONN 25
-0
-50
-50
-rusefi_lib
-Pololu_md09c
-
-
-0
-16
-16
-rusefi_lib
-Pololu_md32a
-
-
-0
-18
-18
-rusefi_lib
-Proteus_PNP_footprint
-
-
-0
-116
-114
-rusefi_lib
-R_0805
-Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
-resistor 0805
+Net-Tie_2_8.5mil
+Net tie, 2 pin, 8.5 mil square SMD pads
+net tie
 0
 2
 2
 rusefi_lib
-SD_PCB_Module_Generic
-SD_PCB_Module_Generic
-SD_PCB_Module_Generic
+SW_SPST_CK_RS282G05A3
+https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf
+SPST button tactile switch
+0
+2
+2
+rusefi_lib
+Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf
+tag connect programming header pogo pins
 0
 6
 6
-rusefi_lib
-SM0805-diode
-
-
-0
-2
-2
-rusefi_lib
-SM0805_jumper
-
-
-0
-6
-2
-rusefi_lib
-SO8E_ST
-
-S08E
-0
-8
-3
-rusefi_lib
-ST_Morpho_Connector_144_STLink
-ST Morpho Connector 144 With STLink
-ST Morpho Connector 144 STLink
-0
-148
-148
-rusefi_lib
-TE_776266-1
-
-
-0
-14
-14
-rusefi_lib
-TL-1105
-
-button
-0
-4
-2
-rusefi_lib
-TSOP-6
-
-TSOP-6
-0
-6
-6
-rusefi_lib
-eeciv
-
-
-0
-60
-60
-rusefi_lib
-eecv
-
-
-0
-107
-104
-rusefi_lib
-joystick_SKRHAAE010
-
-
-0
-10
-7
 rusefi_lib
 microSD_HC_Wurth_693072010801
 Wurth Elektronik MicroSD Card Holder with Lid 693072010801 http://katalog.we-online.de/em/datasheet/693072010801.pdf
@@ -20993,16 +20580,65 @@ mre_logo
 0
 0
 rusefi_lib
-tcpl_PCC-SMP
-
-
-0
-4
-3
-rusefi_lib
 wideband_MRE_R055
 Through hole straight socket strip, 2x10, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
 Through hole socket strip THT 2x10 2.54mm double row
 0
 45
 45
+rusefi_lib_external
+Nissan76_7-51743855
+7-5174385-5-5
+Connector
+0
+79
+79
+rusefi_lib_external
+OSTVN06A150
+
+
+0
+6
+6
+rusefi_lib_external
+SLC_OEM
+
+
+0
+20
+20
+rusefi_lib_external
+SM0805
+
+
+0
+2
+2
+rusefi_lib_external
+SO8E_ST
+
+S08E
+0
+8
+3
+rusefi_lib_external
+SOIC8-DFN
+
+
+0
+13
+9
+rusefi_lib_external
+US1GHE3
+
+
+0
+2
+2
+rusefi_lib_external
+VN750PS-E
+
+
+0
+8
+8
