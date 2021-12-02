@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title "MRE addon board - WBO2 & EGT & SD Card"
-Date "2021-11-26"
+Date "2021-12-02"
 Rev "V1.3"
 Comp "by JRD McLAREN"
 Comment1 "STM32F042K6T6"
@@ -485,7 +485,7 @@ U 1 1 61B7C0C0
 P 9300 1900
 F 0 "F1" V 9525 1900 50  0000 C CNN
 F 1 "Polyfuse 2A" V 9434 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 9350 1700 50  0001 L CNN
+F 2 "Resistor_SMD:R_2816_7142Metric" H 9350 1700 50  0001 L CNN
 F 3 "~" H 9300 1900 50  0001 C CNN
 	1    9300 1900
 	0    -1   -1   0   
